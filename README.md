@@ -1,11 +1,20 @@
 # Claude Code plugins by Nikky Amresh
 
-A Claude Code plugin marketplace. Add it once, then install any plugin listed below.
+A Claude Code plugin marketplace. Add it once, then install any plugin listed below. Run each command on its own in Claude Code (each block has a copy button).
+
+Add the marketplace:
 
 ```
 /plugin marketplace add NikkyAmresh/claude-plugins
-/plugin install <plugin>@nikkyamresh
 ```
+
+Install a plugin, for example Redline:
+
+```
+/plugin install redline@nikkyamresh
+```
+
+Then run `/reload-plugins` or start a new session.
 
 ## Plugins
 
